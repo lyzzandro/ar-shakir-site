@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around; 
+}
+
+#logo{
+    width: 150px;
+
+    align-self: center;
+}
+
+#menu-itens{
+    align-self: center;
+}
+
+
+
+#menu-itens a{
+    font-weight: 600;
+    text-decoration: none;
+    padding: 40px;
+    color: black;
+}
+
+#menu-itens a:hover{
+    color: rgb(66, 66, 66);
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+#explore{
+    height: 35px;
+    width: 100px;
+    font-size: 1em;
+    font-weight: 600;
+    align-self: center;
+    border: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+#explore:hover{
+    color: white;
+    background-color: rgb(66, 66, 66);
+    cursor: pointer;
+}
+
+#inicio{
+
+}
+
+#inicio{
+    background: url(images/capa.jpg) no-repeat fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    height: 90vh;
+    width: 100%;
+}
+
+#informations{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    align-self: center;
+    margin: 0 0 0 6.5vw;
+}
+
+#inicio h2{
+    font-size: 7em;
+    line-height: 0.9;
+    font-weight: 500;
+    width: 50%;
+}
+
+#inicio p{
+    font-size: 1.2em;
+    margin-top: 8%;
+}
+
+#explore-more{
+    height: 45px;
+    width: 200px;
+    margin-top: 8%;
+    font-size: 1em;
+    font-weight: 600;
+    border: none;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#explore-more:hover{
+    background-color: rgb(245, 245, 245) ;
+}
+
+footer{
+    height: 1000px;
+}
