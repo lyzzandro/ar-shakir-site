@@ -327,7 +327,7 @@ h3{
 }
 
 .foto{
-    background: url(/images/rostos/rosto1.jpg) no-repeat center;
+    background: url(images/rostos/rosto1.jpg) no-repeat center;
     background-size: cover;
     border-radius: 100%;
     width: 30%;
