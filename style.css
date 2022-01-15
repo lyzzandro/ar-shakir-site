@@ -15,6 +15,11 @@ header{
     box-shadow: 0px 0px 20px 10px rgba(216, 216, 216, 0.4);
 }
 
+#logo{
+    display: flex;
+    justify-content: center;
+}
+
 h3{
     margin: 10% 0 0 0;
     display: flex;
@@ -291,8 +296,6 @@ ul a:hover{
 }
 
 #testemunho-col2{
-
-    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -407,7 +410,7 @@ button{
     color: rgb(0, 0, 0);
     font-size: 36px;
     position: absolute;
-    right: 30px;
+    right: 10px;
     display: none;
     padding: 0px 10px 3px 10px;
 }
@@ -450,7 +453,6 @@ button:focus ~ ul {
     }
 
     #inicio p{
-        border: 1px solid red;
         font-size: 1em;
         margin-top: 8%;
         width: 60%;
@@ -510,23 +512,83 @@ button:focus ~ ul {
     }
     
     #clients{
-        display: flex;
-        flex-wrap: wrap;
-        margin: 5% auto 0 auto;
-        width: 60%;
-        height: 60vh;
-        justify-content: center;
-    }
-
-    #clients{
-        display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        margin: 5% auto 0 auto;
-        width: 60%;
-        height: 60vh;
+        width: 80%;
+        height: 200vh;
+    }
+
+    .client{
+        width: 100%;
+    }
+
+    #galery{
+        flex-direction: column;
+        width: 80%;
+        height: 150vh;
+    }
+
+    #part1, #imagem3{
+        width: 100%;
+    }
+
+    #testemunhos{
+        flex-direction: column-reverse;
+        width: 80%;
+        height: 100vh;
+    }
+
+    #testemunho-col1{
+        width: 100%;
+        margin: 2% 0 0 0;
+    }
+
+    #testemunho-col2{
+        width: 100%;
+        margin: 5% 0 0 0;
+    }
+    
+    #testemunho-col3{
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        padding: 0 0 10px 10px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .testemunho{
+        border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+    .testemunho-gigante {
+        height: 40%;
+        align-items: center;
         justify-content: center;
     }
 
+    .testemunho img{
+        height: 80%;
+    }
 
+    .testemunho-gigante img{
+        width: 20%;
+    }
+
+    .testemunho-gigante .descricao h3{
+        font-size: 1.2em;
+    }
+
+    .testemunho-gigante .descricao p{
+        font-size: 1em;
+    }
+
+    #text p{
+        font-size: 3em;
+    }
+
+    .descricao h3{
+        font-size: 1em;
+    }
+
+    .descricao p{
+        font-size: 1em;
+    }
 }
